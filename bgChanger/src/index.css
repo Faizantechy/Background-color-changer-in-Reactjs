@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgColor-changer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    padding: 20px;
+    gap: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+button{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    &:hover{
+
+        opacity: 0.5;
+    }
+
+    &:active{
+
+        transform: scale(90%);
+    }
+    
+}
